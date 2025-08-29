@@ -112,28 +112,6 @@ curl -X POST http://localhost:3000/bfhl \
    }
    ```
 
-## Deployment
-
-### Option 1: Vercel (Recommended)
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-### Option 2: Railway
-1. Connect your GitHub repository
-2. Deploy automatically on push
-
-### Option 3: Render
-1. Create new Web Service
-2. Connect your GitHub repository
-3. Set build command: `npm install`
-4. Set start command: `npm start`
-
-### Option 4: Heroku
-1. Install Heroku CLI
-2. Create app: `heroku create your-app-name`
-3. Deploy: `git push heroku main`
-
 ## Important Notes
 
 - **Numbers are returned as strings** as per requirements
@@ -156,18 +134,9 @@ curl -X POST http://localhost:3000/bfhl \
 **Input**: `["A", "ABcD", "DOE"]`
 **Expected**: Alphabets: ["A", "ABCD", "DOE"], Sum: "0"
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
-MIT License - feel free to use this project for your VIT submission!
+MIT License 
 
-## Support
-
-If you encounter any issues or have questions, please open an issue in the repository.
